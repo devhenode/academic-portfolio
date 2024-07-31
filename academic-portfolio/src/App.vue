@@ -8,9 +8,12 @@
         <!-- <img src="/src/assets/vue.svg" alt="Prof Olanisimi portrait"> -->
       </div>
       <div class="nav-svg">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-          <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
-        </svg>
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
+          </svg>
+        </a>
+        
       </div>
       
       <!-- <div class="nav-button">// svg icon </div> -->
@@ -89,7 +92,7 @@
   </div>
 
 
-  <footer>Created with Love </footer>
+  <footer>Copyright. All right reserved </footer>
 </template>
 
 <script>
@@ -100,23 +103,26 @@
 <style>
   .nav {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
   .nav-img {
     padding: 0px;
     margin: 0px;
   }
   .nav-img img {
+    margin-left: 270px;
     border-radius: 70px;
     border: 2px solid;
     width: 150px;
     height: 150px;
   }
   .nav-svg svg {
+    margin-top: 50px;
     background-color: #ffd65a;
     height: 25px;
     padding: 2px 9px;
     border-radius: 10px;
+    left: 0;
   }
 .main-text {
   padding: 10px 20px;
